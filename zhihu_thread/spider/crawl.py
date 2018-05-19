@@ -91,7 +91,7 @@ class Crawl(Singleton):
             following_list = json.dumps({'id':self.__requestinfo(url)})  # 获取用户关注的列表
             self.following_list=[]
         except:
-            following_list=list()
+            following_list=''
 
         info = {
             'user_url_token': url_token,
