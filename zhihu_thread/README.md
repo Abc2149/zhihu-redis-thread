@@ -9,9 +9,6 @@ crawl.py
 - 反爬：
     from fake_useragent import UserAgent
     get_random_proxy()  代理IP：免费代理IP不稳定，可以购买稳定的IP代理
-- 爬取的方式：
-
-
 datafile.py
 - 将知乎用户的信息存储到csv文件
 - 必要的功能：
@@ -19,7 +16,6 @@ datafile.py
     去重
 - 单例模式，线程安全
 - 默认爬取10万用户
-
 run.py 
 - 多线程
     主线程：维护一个待爬取响应队列，更新待爬取和已爬取数量
@@ -28,7 +24,7 @@ run.py
 - crawled_set 已爬取用户集合
 - task_set 未爬取用户集合
 - log 更新状态信息
-
+![image](http://github.com/Abc2149/add_pic/image/2018-05-19_140144.jpg)
 
 
 
