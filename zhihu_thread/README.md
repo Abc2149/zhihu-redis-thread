@@ -8,14 +8,14 @@ crawl.py
 - 在知乎未登录的情况下，爬取知乎的用户，注意：需要携带authorization未登录状态的授权码，不然会一直返回一些不相干的信息。
 - 反爬：
     from fake_useragent import UserAgent
-    get_random_proxy()  代理IP：免费代理IP不稳定，可以购买稳定的IP代理
+    get_random_proxy()  代理IP：免费代理IP不稳定，可以购买稳定的IP代理     
 datafile.py
 - 将知乎用户的信息存储到csv文件
 - 必要的功能：
     从已有的csv文件中提取所有已爬取的用户和待爬取的用户，防止程序意外中断，可以继续爬取
     去重
 - 单例模式，线程安全
-- 默认爬取10万用户
+- 默认爬取10万用户       
 run.py 
 - 多线程
     主线程：维护一个待爬取响应队列，更新待爬取和已爬取数量
