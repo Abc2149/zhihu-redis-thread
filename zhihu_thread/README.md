@@ -24,7 +24,9 @@ run.py
 - crawled_set 已爬取用户集合
 - task_set 未爬取用户集合
 - log 更新状态信息
-![image](http://github.com/Abc2149/add_pic/image/2018-05-19_140144.jpg)
+![image](https://github.com/Abc2149/add_pic/blob/master/image/2018-05-19_140144.png)
+![iamge](https://github.com/Abc2149/add_pic/blob/master/image/2018-05-19_143741.png)    
+![iamge](https://github.com/Abc2149/add_pic/blob/master/image/2018-05-19_143755.png)
 
 
 
