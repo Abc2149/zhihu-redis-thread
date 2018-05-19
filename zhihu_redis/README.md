@@ -5,3 +5,6 @@ start_user = 'excited-vczh'
 redis数据库中多了三个文件，分布式运行环境配置成功，数据保存在redis数据库。       
 process_item.py将redis数据下载到本地MongoDB，也可以在setting.py中直接保存到本地，关闭上传到redis中。    
 反爬：随机user-agent和proxy
+![iamge](https://github.com/Abc2149/add_pic/blob/master/image/2018-05-19_140435.png)
+![image](https://github.com/Abc2149/add_pic/blob/master/image/2018-05-19_140507.png)
+![image](https://github.com/Abc2149/add_pic/blob/master/image/2018-05-19_140239.png)
