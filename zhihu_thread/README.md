@@ -1,17 +1,5 @@
-# 多线程爬取知乎用户信息
+# 多线程爬取知乎用户信息   
 
-目录结构    
->zhihu
->>datafile
->>>1.csv
->>2.csv
->>....
->spider
->>crawl.py
->>datafile.py
->>run.py
->>tool
->>>proxy
 -运行 python run.py
 
 crawl.py
